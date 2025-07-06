@@ -1,0 +1,10 @@
+gunicorn
+markupsafe
+requests
+aiogram
+aiohttp
+python-dotenv
+sqlalchemy
+asyncpg
+psycopg2-binary
+uuid
