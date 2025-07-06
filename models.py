@@ -21,7 +21,7 @@ class Cart(Base):
 
 class User(Base):
     __tablename__ = "users"
-    user_id = Column(Integer, primary_key=True)
+    user_id = Column(BigInteger, primary_key=True)
     full_name = Column(String)
     username = Column(String)
     created_at = Column(String)
