@@ -14,7 +14,7 @@ class Product(Base):
 class Cart(Base):
     __tablename__ = "cart"
     id = Column(Integer, primary_key=True)
-    user_id = Column(Integer)
+    user_id = Column(BigInteger)
     product_id = Column(Integer, ForeignKey("products.id"))
     quantity = Column(Integer, default=1)
     product = relationship("Product")
